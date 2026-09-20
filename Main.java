@@ -202,4 +202,11 @@ public class Main {
     // Binary Search requires sorted data because it relies on the order of elements to eliminate half of the search space at each step. It will not work correctly on unsorted data.
     // I would use linear search for unsorted data because binary search requires sorted data to function correctly. It also has a simpler implementation and does not require any preprocessing of the data.
     // For a very large sorted array, I would use binary search because it has a more efficient time complexity of O(log n) compared to linear search's O(n). It also reduces the number of comparisons needed to find the target element.
+    
+    //TABLE:
+    // Algorithm       | Big O                 
+    // Bubble Sort     | O(n^2)                   
+    // Merge Sort      | O(n log n)                
+    // Linear Search   | O(n)                      
+    // Binary Search   | O(log n)                  
 }
